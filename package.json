@@ -1,0 +1,43 @@
+{
+  "name": "strapi-provider-upload-tencent",
+  "version": "3.0.0-beta",
+  "description": "Tencent Cloud COS provider for strapi upload",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turkyden/strapi-provider-upload-tencent.git"
+  },
+  "author": {
+    "email": "wj871287@gmail.com",
+    "name": "Turkyden",
+    "url": "https://github.com/Turkyden"
+  },
+  "maintainers": [
+    {
+      "name": "Turkyden",
+      "email": "wj871287@gmail.com",
+      "url": "https://github.com/Turkyden"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turkyden/strapi-provider-upload-tencent/issues"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "homepage": "https://github.com/Turkyden/strapi-provider-upload-tencent#readme",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.5.9"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+}
